@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+    display: flex;
+    height: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+#wrapper {
+    width: 500px;
+    height: 700px;
+    background-color: gray;
+    padding: 2rem;
+    border-radius: 20px;
+}
+
+#screen {
+    background: rgba(255, 255, 255, 60%);
+    font-size: 3rem;
+    border-radius: 2rem;
+    padding: 2rem;
+    text-align: right;
+}
+
+.buttons-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+button {
+    border: 0;
+    border-radius: 20px;
+    font-size: 2rem;
+    width: 90px;
+    height: 90px;
+}
+
+button:hover {
+    background: inherit;
+}
+
+button:active {
+    background: rgb(175, 175, 175);
+}
+
+.double {
+    width: 45%;
+}
+
+.triple {
+    width: 73%;
+}
