@@ -38,7 +38,7 @@ body {
     margin: 5% 0;
 }
 
-button {
+.btn {
     border: 0;
     border-radius: 20px;
     font-size: 2rem;
