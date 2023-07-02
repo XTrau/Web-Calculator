@@ -9,7 +9,7 @@ html {
 }
 
 body {
-    background: linear-gradient(pink, orange, purple);
+    background: linear-gradient(135deg, white, gray, rgb(45, 45, 45));
     display: flex;
     height: inherit;
     align-items: center;
