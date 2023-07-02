@@ -10,7 +10,7 @@ function buttonClick(value) {
     else
         addNumber(value)
 
-    if (calcOut.length > 16)
+    if (calcOut.length > 17)
         calcOut = calcOut.substring(0, calcOut.length - 1)
 
     screen.innerText = calcOut
