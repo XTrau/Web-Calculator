@@ -1,9 +1,9 @@
 html {
-    box-sizing: border-box;
     height: 100%;
 }
 
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
@@ -18,7 +18,7 @@ body {
 
 #wrapper {
     width: 500px;
-    height: 700px;
+    height: 750px;
     background-color: rgba(70, 70, 70, 80%);
     padding: 2rem;
     border-radius: 20px;
@@ -38,7 +38,9 @@ body {
     margin: 5% 0;
 }
 
+
 .btn {
+    transition: 300ms;
     border: 0;
     border-radius: 20px;
     font-size: 2rem;
@@ -46,12 +48,30 @@ body {
     height: 90px;
 }
 
+
 button:hover {
+    transition: 300ms;
     background: rgba(255, 255, 255, 30%);
 }
 
 button:active {
+    transition: 100ms;
     background: rgb(175, 175, 175);
+}
+
+.btn:last-child {
+    transition: 300ms;
+    background: rgb(255, 38, 0);
+}
+
+.btn:last-child:hover {
+    transition: 300ms;
+    background: orange;
+}
+
+.btn:last-child:active {
+    transition: 100ms;
+    background: rgb(255, 132, 0);
 }
 
 .double {
